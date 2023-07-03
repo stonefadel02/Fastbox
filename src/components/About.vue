@@ -4,7 +4,7 @@
         <h1 class="text-center font-bold text-3xl">ABOUT US</h1><br>
         <hr class="border-2 border-[#db0f31] w-10 mx-auto">
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="px-5">
                 <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua ut enim ad. Architecto beatae vitae dicta sunting explicabo quae ab

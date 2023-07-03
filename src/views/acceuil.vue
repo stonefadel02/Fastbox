@@ -3,12 +3,10 @@
  <Read_more></Read_more>
  <About></About>
  <Features></Features>
- <Testimonial></Testimonial>
  <Footer></Footer>
 </template>
 
 <script>
-import Testimonial from '../components/Testimonial'
 import Features from '../components/Features'
 import About from '../components/About'
 import Read_more from '../components/read_more'
@@ -18,7 +16,6 @@ import Header from '../components/header'
 
 export default {
   components: {
-    Testimonial,
     Features,
     About,
     Read_more,

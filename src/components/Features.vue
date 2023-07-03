@@ -41,7 +41,7 @@
                         </p>
                     </div>
                 </div>
-                <div class=" ml-4">
+                <!-- <div class=" ml-4">
                     <img src="./cont.png" alt="" class="h-12 w-12 mt-10" />
                     <img src="./cad.png" alt="" class="h-12 w-12 mt-20 " />
                     <img src="./mond.png" alt="" class="h-12 w-12 mt-20" />
@@ -56,7 +56,7 @@
                             </path>
                         </g>
                     </svg>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@ export default {
 </script>
 
 <style>
-.container {
+/* .container {
     max-width: 100%;
     padding: 1rem;
     margin: 0 auto;
@@ -96,5 +96,5 @@ export default {
     .container {
         max-width: 1280px;
     }
-}
+} */
 </style>

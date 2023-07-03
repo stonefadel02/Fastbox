@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "global": "vite --host",
     "dev": "vite"
   },
   "dependencies": {
