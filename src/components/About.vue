@@ -6,28 +6,23 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="px-5">
-                <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua ut enim ad. Architecto beatae vitae dicta sunting explicabo quae ab
-                    illo inventore.</p>
-                <p class="">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                    id est laborum. Sed ut perspiciatis unde omnis iste natus error sitong out voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae. sunt in culpa qui officia deserunt mollit
-                    anim id est laborum</p>
-                <div class="flex pt-5">
+                <p class="pb-5">Shippackage offre les services de transport de marchandises par voie maritime et aérienne, en mettant l'accent sur la fiabilité et la sécurité. Leur objectif est de fournir des solutions de transport efficaces pour les entreprises et les particuliers. Voici ce qu'ils proposent :</p>
+               
+                <div class="flex pt-1">
                     <img src="./select.png" alt="" class="h-4 ml-2 mt-2">
-                    <p class="pl-2 pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    <p class="pl-2 pt-1">Livraison des colis dans des délais raisonnables avec soin et sécurité par bateau.</p>
                 </div>
                 <div class="flex pt-5">
                     <img src="./select.png" alt="" class="h-4 ml-2 mt-2">
-                    <p class="pl-2 pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    <p class="pl-2 pt-1">Livraison rapide des marchandises grâce à leur réseau mondial de compagnies aériennes partenaires</p>
                 </div>
                 <div class="flex pt-5">
                     <img src="./select.png" alt="" class="h-4 ml-2 mt-2">
-                    <p class="pl-2 pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    <p class="pl-2 pt-1">Engagés à respecter les délais convenus pour une planification efficace.</p>
                 </div>
                 <div class="flex pt-5">
                     <img src="./select.png" alt="" class="h-4 ml-2 mt-2">
-                    <p class="pl-2 pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    <p class="pl-2 pt-1">Normes strictes de manipulation, d'emballage et de suivi pour une livraison sans dommage</p>
                 </div>
             </div>
             <div></div>

@@ -4,40 +4,34 @@
             <h2 class="text-[#db0f31] text-center pt-16">WHY CHOOSE US</h2><br>
             <h1 class="text-center font-bold text-3xl">THE MAIN FEATURES</h1><br>
             <hr class="border-2 border-[#db0f31] w-10 mx-auto">
-            <p class="text-center mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            <p class="text-center mt-5">
+               Choisir Shippackage signifie opter pour un service de transport fiable, <br>sécurisé et efficace, qui met l'accent sur la satisfaction du client et la livraison réussie de vos marchandises.
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2">
                 <div class="my-4">
                     <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold mb-4 text-2xl">100% satisfied customers</h2>
+                        <h2 class="text-center sm:text-right font-bold mb-4 text-2xl">Clients satisfaits à 100%</h2>
                         <p class="text-center sm:text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                            tempor incididunt ut labore et dolore magna aliqua.
+                            Chez Shippackage, la satisfaction de nos clients est notre priorité absolue. Nous nous engageons à offrir un service exceptionnel.
                         </p>
                     </div>
                     <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Quality service affordable price</h2>
+                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Service de qualité à prix abordable</h2>
                         <p class="text-center sm:text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                            tempor incididunt ut labore et dolore magna aliqua.
+                            Chez Shippackage, nous croyons fermement qu'un service de qualité ne doit pas nécessairement être coûteux. 
                         </p>
                     </div>
                     <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Worldwide Locations</h2>
+                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Emplacements dans le monde entier</h2>
                         <p class="text-center sm:text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                            tempor incididunt ut labore et dolore magna aliqua.
+                            Shippackage est fier de proposer des services de transport et de livraison dans des destinations du monde entier.
                         </p>
                     </div>
                     <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Modern Vehicles Fleet</h2>
+                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Flotte de véhicules modernes</h2>
                         <a href="" class=""></a>
                         <p class="text-center sm:text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
-                            tempor incididunt ut labore et dolore magna aliqua.
+                           Chez Shippackage, nous disposons d'une flotte de véhicules modernes et bien entretenus pour répondre à vos besoins en matière de transport.
                         </p>
                     </div>
                 </div>

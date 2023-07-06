@@ -1,19 +1,19 @@
 <template>
             <div class="grid md:grid-rows-2 grid-rows-1 bg-stone-900">
                 <div class="center-align px-6 md:mt-28 mt-12">
-                    <div class="flex bg-[#db0f31] md:h-24 rounded-lg pl-10  text-white font-roboto md:items-center md:flex-row flex-col justify-start">
-                          <p>LIKE OUR WORK? RECEIVE OUR EMAIL NEWSLETTER</p>  
-                        <input type="email" class="form-input placeholder-white   rounded-sm border border-1 md:h-10 h-5 md:w-96 w-56 my-2  md:ml-72  bg-[#db0f31] pl-3 text-white " placeholder='@yourmail.com' />
-                        <button class="bg-slate-50 text-slate-950 rounded-sm md:ml-3 md:h-10 h-6 md:text-sm text-sm md:w-28 w-28   font-mono my-2 hover:bg-slate-950 hover:text-white ">SUBSCRIBE</button>
+                    <div class="flex bg-[#db0f31] md:h-24 rounded-lg pl-5  text-white font-roboto md:items-center md:flex-row flex-col justify-start">
+                          <p class="">VOUS AIMEZ NOTRE TRAVAIL ? RECEVEZ NOS INFORMATIONS PAR E-MAIL</p>  
+                        <input type="email" class="form-input placeholder-white   rounded-sm border border-1 md:h-10 h-5 md:w-96 w-56 my-2  md:ml-40 bg-[#db0f31] pl-3 text-white " placeholder='@yourmail.com' />
+                        <button class="bg-slate-50 text-slate-950 rounded-sm md:ml-3 md:h-10 h-6 md:text-sm text-sm md:w-28 w-28   font-mono my-2 hover:bg-slate-950 hover:text-white ">S'ABONNER</button>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-4 grid-cols-1 ml-1 md:mt-0 mt-10">
                     <div>
                     <div class="ml-10 mb-4" style=" display: flex;">
-                        <h1 class="text-2xl font-mono   text-white text-center "  >Shippackage</h1>
+                        <h1 class="text-2xl font-mono   text-white text-center "  >ShipPackage</h1>
                         <img src="./camion.png"  class=" md:ml-3 md:h-8 h-7 "/>
                     </div>
-                    <p class="text-gray-500  md:text-justify text-justify p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text-gray-500  md:text-justify text-justify p-2">Shippackage offre les services de transport de marchandises par voie maritime et aérienne, en mettant l'accent sur la fiabilité et la sécurité. Leur objectif est de fournir des solutions de transport efficaces pour les entreprises et les particulier</p>
                         <div class="flex my-4 md:my-4 ml-4 ">
                           <a href="#!" class="md:mr-6 mr-6 text-white text-center dark:text-neutral-200 bg-blue-700 w-8 h-6 rounded-sm ">
                             <svg
@@ -74,23 +74,23 @@
                     </div>
                       <div class="md:mb-0 mb-6">
                             <h2 class="pl-2 text-white font-bold font-mono text-xl ">RECENT POSTS</h2>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
-                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Goods Contain In Safe Place</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- La sécurité des marchandises</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Nos installations de stock...</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Nous mettons en place des ...</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Vous pouvez avoir l'esprit...</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Grâce à nos protocoles de ...</a></div>
+                            <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Vous pouvez avoir l'esprit...</a></div>
                         </div>
                     
                     <div class="mr-5">
                         <h2 class="pl-2 text-white font-bold font-mono text-xl mb-6">CONTACT INFO</h2>
-                        <div class="flex"><a href="" class=""><img src="./loc.png" alt="" class="h-6 mt-1 ml-2"></a> <p class="ml-4  text-gray-500  ">Envato, Victoria St 355, Australia</p></div>
+                        <div class="flex"><a href="" class=""><img src="./loc.png" alt="" class="h-6 mt-1 ml-2"></a> <p class="ml-4  text-gray-500  ">Vedoko, Cotonou, Benin</p></div>
                         <div class="flex mt-4"><img src="./message.png" alt="" class="h-6  ml-2"> <p class="text-gray-500 ml-3">Email:</p><a href="" class="text-[#db0f31] ml-2 ">support@shippackage.com</a></div>
     
                          <div class="flex mt-4 mb-8"><img src="./phone.png" alt="" class="h-6  ml-2"> <p class="text-gray-500 ml-3">Phone:</p><a href="" class="text-[#db0f31] ml-2 "> +(229) 40519749</a></div>
 
                         <h2 class="pl-2  text-white font-bold font-mono text-xl ">WORKING HOURS</h2>
-                        <p class=" ml-2 mt-4 mb-10 text-gray-500 text-xm">  <span class="font-bold" >Monday - Friday:</span> 7:30am - 18:00pm <br><span class="font-bold">Saturday - Sunday:</span> 7:30am - 1:00pm</p>
+                        <p class=" ml-2 mt-4 mb-10 text-gray-500 text-xm">  <span class="font-bold" >Lundi - Vendredi:</span> 8:00am - 20:00pm <br><span class="font-bold">Samedi - Dimanche:</span> 8:00am - 20:00pm</p>
                     </div>
 
                 </div>

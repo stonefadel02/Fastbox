@@ -1,19 +1,20 @@
 <template>
-      <div class="grid md:grid-cols-4 bg-stone-900 h-24  grid-cols-1 ">
-          <div class="md:ml-10 ml-4" style=" display: flex;">
-              <h1 class="text-4xl font-mono  mt-8 text-white text-center sm:text-sm:text-left">Shippackage</h1>
-              <img src="./camion.png"  class=" ml-3 h-8 mt-10 "/>
+    <div class="grid md:grid-cols-4 bg-stone-900 md:h-24 h-18 my-auto grid-cols-1 ">
+          <div class="md:ml-10 ml-4 md:mb-0 mb-4" style=" display: flex;">
+              <h1 class="md:text-4xl text-2xl  font-mono  mt-8 text-white text-center sm:text-sm:text-left">ShipPackage</h1>
+              <img src="./camion.png"  class=" md:ml-3 ml-4 md:h-8 h-7 mt-10 "/>
           </div>
         
-          <div class="md:flex mt-7 ml-16 hidden ">
-            <img src="./map.png" alt="" class="h-10 ">
-            <p class="text-white pl-5 text-sm"><span class="font-bold ">One Canada Square</span> <br>
-              Canary Wharf, United Kingdom. </p>
+          <div class="md:flex mt-7 ml-32 hidden ">
+            <img src="./map.png" alt="" class="h-10  ">
+            <p class="text-white pl-4 text-sm"><span class="font-bold ">Situe au Benin</span> <br>
+               Vedoko,Cotonou
+   </p>
           </div>
           <div class="md:flex mt-7 ml-20 hidden">
             <img src="./alarn.png" alt="" class="h-10">
-            <p class="text-white pl-5 text-sm"><span class="font-bold ">Monday-Friday: 9am to 5pm</span> <br>
-                Saturday / Sunday: Closed</p>
+            <p class="text-white pl-4 text-sm"><span class="font-bold ">Lundi-Dimanche: 08h-20h</span> <br>
+                Lundi-Dimanche: Ouvert</p>
           </div>
        
           <div class="md:flex mt-7 ml-20 hidden">
@@ -24,16 +25,17 @@
           
   
       </div>
-      <div class="hidden md:block">
+      <div class="hidden md:block sticky top-0">
         <div class="sticky top-0 grid grid-cols-2  bg-stone-900  border-2 border-stone-800 ">
             <div class="my-3 justify-between space-x-6 ml-10 ">
             <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31] ">TRANSPORT</a></div>
             <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31]">ABOUT</a></div>
             <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31]">FEATURES</a></div>
+            <div class="relative inline-flex"><a href="" class=""><button class=""></button></a></div>
             </div>
             <div>
             <div class="flex justify-center ml-80 my-4 ">
-                      <a href="#!" class="mr-6 text-white dark:text-neutral-200">
+                      <a href="https://facebook.com/shippakage" class="mr-6 text-white dark:text-neutral-200">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           class="h-6 w-4"
@@ -96,7 +98,7 @@
                       <a href="#!" class="text-white mr-4 mt-1 dark:text-neutral-200">
                         <svg class="fill-current text-white h-4 w-4" viewBox="0 0 20 20">
           <path d="M10 0a7 7 0 017 7v2h1a2 2 0 011.995 1.85L20 11v7a2 2 0 01-1.85 1.995L18 20H2a2 2 0 01-1.995-1.85L0 18V11a2 2 0 011.85-1.995L2 9h1V7a7 7 0 017-7zm5 7v2H5V7a5 5 0 1110 0z"/>
-        </svg>
+          </svg>
 
                       </a>
                        <a href="#!" class="my-1 text-white dark:text-neutral-200">
@@ -112,6 +114,7 @@
         </div>
         </div>
       </div>
+     
       
 </template>
 
