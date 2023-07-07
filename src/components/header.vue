@@ -1,8 +1,18 @@
 <template>
     <div class="grid md:grid-cols-4 bg-stone-900 md:h-24 h-18 my-auto grid-cols-1 ">
-          <div class="md:ml-10 ml-4 md:mb-0 mb-4" style=" display: flex;">
-              <h1 class="md:text-4xl text-2xl  font-mono  mt-8 text-white text-center sm:text-sm:text-left">ShipPackage</h1>
-              <img src="./camion.png"  class=" md:ml-3 ml-4 md:h-8 h-7 mt-10 "/>
+          <div class="md:ml-10 ml-4 md:mb-0 mb-4 " style=" display: flex;">
+              <h1 class="md:text-4xl text-2xl  font-mono  md:mt-8 mt-4 text-white text-center sm:text-sm:text-left">ShipPackage</h1>
+              <img src="./camion.png"  class=" md:ml-3 ml-4 md:h-8 h-7 md:mt-10 mt-5 "/>
+                 <div class="block md:hidden ml-16 mt-5 ">
+                      <button
+                          class="flex items-center px-3 py-2 border rounded text-[#db0f31] border-[#db0f31] hover:text-white hover:border-white"
+                          @click="toggleMenu">
+                          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                              <title>Menu</title>
+                              <path d="M0 3h20v2H0V3zm0 5h20v2H0V8zm0 5h20v2H0v-2z"></path>
+                          </svg>
+                      </button>
+            </div>
           </div>
         
           <div class="md:flex mt-7 ml-32 hidden ">
@@ -22,16 +32,16 @@
             <p class="text-white pl-5 text-sm"><span class="font-bold "><a href="" class="hover:text-[#db0f31]">+(229) 40519749</a></span> <br>
               <a href="" class="hover:text-[#db0f31]">support@shippackage.com</a></p>
           </div>
-          
+        
   
       </div>
-      <div class="hidden md:block sticky top-0">
-        <div class="sticky top-0 grid grid-cols-2  bg-stone-900  border-2 border-stone-800 ">
+      
+      <div class="hidden md:block sticky top-0 flex-grow lg:flex lg:items-center lg:w-auto " :class="{ hidden: !isMenuOpen }">
+        <div class="sticky top-0 grid grid-cols-2  bg-stone-900  border-2 border-stone-800 lg:flex-grow">
             <div class="my-3 justify-between space-x-6 ml-10 ">
-            <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31] ">TRANSPORT</a></div>
-            <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31]">ABOUT</a></div>
-            <div class="relative inline-flex"><a href="" class=" text-white hover:text-[#db0f31]">FEATURES</a></div>
-            <div class="relative inline-flex"><a href="" class=""><button class=""></button></a></div>
+            <div class="block lg:inline-block lg:mt-0"><a href="" class="block lg:inline-block lg:mt-0 text-white hover:text-[#db0f31] ">TRANSPORT</a></div>
+            <div class="inline-flex lg:inline-block lg:mt-0"><a href="" class=" lg:inline-block lg:mt-0 text-white hover:text-[#db0f31]">ABOUT</a></div>
+            <div class="inline-flex lg:inline-block lg:mt-0"><a href="" class="lg:inline-block lg:mt-0= text-white hover:text-[#db0f31]">FEATURES</a></div>
             </div>
             <div>
             <div class="flex justify-center ml-80 my-4 ">
@@ -121,6 +131,24 @@
 <script>
 export default {
    name: 'header',
+
+    data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
  
-}
+};
 </script>
+<style>
+@media (min-width: 1024px) {
+  .lg\\:hidden {
+    display: none !important;
+  }
+}
+</style>
