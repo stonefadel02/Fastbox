@@ -59,21 +59,21 @@
                         </div>
                     </div>
                     <div class="">
-                        <h2 class="pl-2 mb-2 text-white font-bold font-mono text-xl ">TOP RATED PRODUCTS</h2>
-                        <div class="flex mb-4"><img src="./habit.png" alt="" class="h-16 rounded-sm ml-2 bg-white "> <p class="text-gray-500 ml-3"> <a href="" class="hover:text-red-700">Woo Logo</a><br>
-                                                £15.00 <br>Rated 3.00 out of 5</p></div>
+                        <h2 class="pl-2 mb-2 text-white font-bold font-mono text-xl ">TOP-RATED TRAVEL EXPERIENCES</h2>
+                        <div class="flex"><img src="./truck.png" alt="" class="md:h-24  h-24  rounded-sm ml-2 bg-stone-900 "> <p class="text-gray-500 ml-3 mt-3"> <a href="" class="hover:text-red-700 ">Terrien</a><br>
+                                                +15.00 <br>Rated 3.00 out of 5</p></div>
                             <hr class="border-1 border-gray-300 border-opacity-10   w-72    ">
                         <div class=""></div>
-                       <div class="flex mb-4"><img src="./habit.png" alt="" class="h-16 rounded-sm ml-2 bg-white "> <p class="text-gray-500 ml-3"> <a href="" class="hover:text-red-700">Woo Logo</a><br>
-                                                    £15.00 <br>Rated 3.00 out of 5</p></div>
+                       <div class="flex"><img src="./train.png" alt="" class="md:h-24 h-24 rounded-sm ml-2 bg-stone-900 "> <p class="text-gray-500 ml-3 mt-3"> <a href="" class="hover:text-red-700">Ferree</a><br>
+                                                    +15.00 <br>Rated 3.00 out of 5</p></div>
                                 <hr class="border-1 border-gray-300 border-opacity-10   w-72    ">
                             <div class=""></div>
-                              <div class="flex mb-4"><img src="./habit.png" alt="" class="h-16 rounded-sm ml-2 bg-white "> <p class="text-gray-500 ml-3"> <a href="" class="hover:text-red-700">Woo Logo</a><br>
-                                                        £15.00 <br>Rated 3.00 out of 5</p></div>
+                              <div class="flex mb-2"><img src="./R.png" alt="" class="h-24 md:h-24 rounded-sm ml-2 bg-stone-900 "> <p class="text-gray-500 ml-3 mt-3"> <a href="" class="hover:text-red-700">Maritime</a><br>
+                                                        +15.00 <br>Rated 3.00 out of 5</p></div>
                                 <div class=""></div>
                     </div>
-                      <div class="md:mb-0 mb-6">
-                            <h2 class="pl-2 text-white font-bold font-mono text-xl ">RECENT POSTS</h2>
+                      <div class="md:mb-0 mb-6 ml-10">
+                            <h2 class="pl-2 text-white font-bold font-mono text-xl text-left ">RECENT POSTS</h2>
                             <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- La sécurité des marchandises</a></div>
                             <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Nos installations de stock...</a></div>
                             <div class=" mt-5"><a href="" class="hover:text-red-700 text-gray-500">- Nous mettons en place des ...</a></div>
@@ -90,7 +90,7 @@
                          <div class="flex mt-4 mb-8"><img src="./phone.png" alt="" class="h-6  ml-2"> <p class="text-gray-500 ml-3">Phone:</p><a href="" class="text-[#db0f31] ml-2 "> +(229) 40519749</a></div>
 
                         <h2 class="pl-2  text-white font-bold font-mono text-xl ">WORKING HOURS</h2>
-                        <p class=" ml-2 mt-4 mb-10 text-gray-500 text-xm">  <span class="font-bold" >Lundi - Vendredi:</span> 8:00am - 20:00pm <br><span class="font-bold">Samedi - Dimanche:</span> 8:00am - 20:00pm</p>
+                        <p class=" ml-2 mt-4   mb-10 text-gray-500 text-xm">  <span class="font-bold" >Lundi - Vendredi:</span> 8:00am - 20:00pm <br><span class="font-bold">Samedi - Dimanche:</span> 8:00am - 20:00pm</p>
                     </div>
 
                 </div>
