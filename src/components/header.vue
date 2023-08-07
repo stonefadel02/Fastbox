@@ -92,7 +92,7 @@ export default {
         </li>
         <li class="mb-4 sm:mb-0 sm:pr-2">
           <a class="block transition duration-150 ease-in-out text-blue-900 font-bold hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
-            href="./moncomptes.vue">Mon compte</a>
+            href="./mon_comptes.vue">Mon compte</a>
         </li>
         <!-- <li class="mb-4 sm:mb-0 sm:pr-2">
           <div class="flex bg-white rounded border-white border-2 border-opacity-40  sm:h-[37px] sm:w- my-auto">
