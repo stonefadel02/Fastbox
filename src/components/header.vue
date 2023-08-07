@@ -1,154 +1,159 @@
-<template>
-    <div class="grid md:grid-cols-4 bg-stone-900 md:h-24 h-18 my-auto grid-cols-1 ">
-          <div class="md:ml-10 ml-4 md:mb-0 mb-4 " style=" display: flex;">
-              <h1 class="md:text-4xl text-2xl  font-mono  md:mt-8 mt-4 text-white text-center sm:text-sm:text-left">ShipPackage</h1>
-              <img src="./camion.png"  class=" md:ml-3 ml-4 md:h-8 h-7 md:mt-10 mt-5 "/>
-                 <div class="block md:hidden ml-16 mt-5 ">
-                      <button
-                          class="flex items-center px-3 py-2 border rounded text-[#db0f31] border-[#db0f31] hover:text-white hover:border-white"
-                          @click="toggleMenu">
-                          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                              <title>Menu</title>
-                              <path d="M0 3h20v2H0V3zm0 5h20v2H0V8zm0 5h20v2H0v-2z"></path>
-                          </svg>
-                      </button>
-            </div>
-          </div>
-        
-          <div class="md:flex mt-7 ml-32 hidden ">
-            <img src="./map.png" alt="" class="h-10  ">
-            <p class="text-white pl-4 text-sm"><span class="font-bold ">Situe au Benin</span> <br>
-               Vedoko,Cotonou
-   </p>
-          </div>
-          <div class="md:flex mt-7 ml-20 hidden">
-            <img src="./alarn.png" alt="" class="h-10">
-            <p class="text-white pl-4 text-sm"><span class="font-bold ">Lundi-Dimanche: 08h-20h</span> <br>
-                Lundi-Dimanche: Ouvert</p>
-          </div>
-       
-          <div class="md:flex mt-7 ml-20 hidden">
-            <img src="./cask.png" alt="" class="h-10">
-            <p class="text-white pl-5 text-sm"><span class="font-bold "><a href="" class="hover:text-[#db0f31]">+(229) 40519749</a></span> <br>
-              <a href="" class="hover:text-[#db0f31]">support@shippackage.com</a></p>
-          </div>
-        
-  
-      </div>
-      
-      <div class="hidden md:block sticky top-0 flex-grow lg:flex lg:items-center lg:w-auto " :class="{ hidden: !isMenuOpen }">
-        <div class="sticky top-0 grid grid-cols-2  bg-stone-900  border-2 border-stone-800 lg:flex-grow">
-            <div class="my-3 justify-between space-x-6 ml-10 ">
-            <div class="block lg:inline-block lg:mt-0"><a href="" class="block lg:inline-block lg:mt-0 text-white hover:text-[#db0f31] ">TRANSPORT</a></div>
-            <div class="inline-flex lg:inline-block lg:mt-0"><a href="" class=" lg:inline-block lg:mt-0 text-white hover:text-[#db0f31]">ABOUT</a></div>
-            <div class="inline-flex lg:inline-block lg:mt-0"><a href="" class="lg:inline-block lg:mt-0= text-white hover:text-[#db0f31]">FEATURES</a></div>
-            </div>
-            <div>
-            <div class="flex justify-center ml-80 my-4 ">
-                      <a href="https://facebook.com/shippakage" class="mr-6 text-white dark:text-neutral-200">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-4"
-                          fill="currentColor"
-                          viewBox="0 0 24 24">
-                          <path
-                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                        </svg>
-                      </a>
-                      <a href="#!" class="mr-6 text-white dark:text-neutral-200">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-4"
-                          fill="currentColor"
-                          viewBox="0 0 24 24">
-                          <path
-                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 
-                          1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515
-                           2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 
-                           6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949
-                            4.89-.693.188-1.452.232-2.224.084.626 1.956
-                             2.444 3.379 4.6 3.419-2.07 1.623-4.678 
-                             2.348-7.29 2.04 2.179 1.397 
-                             4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 
-                             13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                        </svg>
-                      </a>
-                      <a href="#!" class="mr-6 text-white dark:text-neutral-200">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-4"
-                          fill="currentColor"
-                          viewBox="0 0 24 24">
-                          <path
-                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48
-                           2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5
-                            2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 
-                            0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 
-                            0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-                        </svg>
-                      </a>
-                      <a href="#!" class="mr-6 text-white dark:text-neutral-200">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-4"
-                              fill="currentColor"
-                              viewBox="0 0 24 24">
-                              <path
-                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 
-                              1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 
-                              4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849
-                               0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78
-                                2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259
-                                 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0
-                                  5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791
-                                   4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                            </svg>
-                          </a>
-                     
-                      <a href="#!" class="text-white mr-4 mt-1 dark:text-neutral-200">
-                        <svg class="fill-current text-white h-4 w-4" viewBox="0 0 20 20">
-          <path d="M10 0a7 7 0 017 7v2h1a2 2 0 011.995 1.85L20 11v7a2 2 0 01-1.85 1.995L18 20H2a2 2 0 01-1.995-1.85L0 18V11a2 2 0 011.85-1.995L2 9h1V7a7 7 0 017-7zm5 7v2H5V7a5 5 0 1110 0z"/>
-          </svg>
-
-                      </a>
-                       <a href="#!" class="my-1 text-white dark:text-neutral-200">
-                                <svg class="fill-current text-white h-4 w-4" viewBox="0 0 20 20">
-              <path d="M9 0a9 9 0 100 18A9 9 0 009 0zm0 16a7 7 0 110-14 7 7 0 010 14zM19.707 
-            18.293l-3.853-3.853A7.933 7.933 0 0016 9h1a8 8 0 10-8 8v1a7.93 7.93 0 004.44-1.36l3.853 3.853a1
-             1 0 101.414-1.414zM2 9a7 7 0 1114 0A7 7 0 012 9z"/>
-            </svg>
-
-                      </a>
-                    </div>
-
-        </div>
-        </div>
-      </div>
-     
-      
-</template>
-
 <script>
 export default {
-   name: 'header',
-
-    data() {
+  name: "HeaderComponent",
+  data() {
     return {
-      isMenuOpen: false
+      navOndem: false,
     };
   },
+  components: {},
   methods: {
-    toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
-    }
-  }
- 
+    navOnDemand() {
+      if (this.navOndem) {
+        this.navOndem = false;
+      } else {
+        this.navOndem = true;
+      }
+    },
+  },
+  setup() { },
 };
 </script>
-<style>
-@media (min-width: 1024px) {
-  .lg\\:hidden {
-    display: none !important;
-  }
-}
-</style>
+<template>
+  <header class="">
+    <!-- Navigation bar -->
+
+    <!-- <div class="bg-white h-16 px-12 pb-[8%]">
+      <div
+        class="bg-white h-16 mt-2 hidden flex-grow basis-[100%] items-center justify-center sm:mt-0 sm:!flex sm:basis-auto"
+        id="navbarSupportedContentX" data-te-collapse-item>
+        <div class="flex sm:ml-10 mr-auto sm:mb-9 mb-9">
+          <h1 class="sm:text-[12px] text-sm sm:mt-10 mt-5 text-gray-400 text-center sm:text-sm:text-left">
+            Téléphone:
+            <span class="text-gray-700 decoration-2 decoration-[#5e33ff]">+229 96 96 96 96</span>
+          </h1>
+        </div>
+        <div class="flex sm:ml-10 mr-auto sm:mb-9 mb-9">
+          <h1 class="sm:text-[12px] text-sm sm:mt-10 mt-5 text-gray-400 text-center sm:text-sm:text-left">
+            Email:
+            <span class="text-gray-700 decoration-2 decoration-[#5e33ff]">support@shippackage.com</span>
+          </h1>
+        </div>
+        <ul class="list-style-none flex flex-col pl-0 sm:mt-1 sm:flex-row">
+          <li class="mt-2 sm:mb-0 sm:pr-2 text-gray-400">
+            <span class="block sm:text-[12px] text-gray-400">Suivez nous</span>
+          </li>
+          <li class="mb-4 sm:mb-0 sm:pr-2">
+            <a class="block sm:text-[12px] transition duration-150 ease-in-out text-gray-700 hover:text-neutral-900 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+              href="#!">Facebook</a>
+          </li>
+          <li class="mb-4 sm:mb-0 sm:pr-2">
+            <a class="block sm:text-[12px] transition duration-150 ease-in-out text-gray-700 hover:text-neutral-900 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+              href="#!">Twitter</a>
+          </li>
+          <li class="mb-2 sm:mb-0 sm:pr-2">
+            <a class="block sm:text-[12px] transition duration-150 ease-in-out text-gray-700 hover:text-neutral-900 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+              href="#!">Linkedin</a>
+          </li>
+          <li class="mb-2 sm:mb-0 sm:pr-2">
+            <a class="block sm:text-[12px] transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+              href="#!">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+    <!-- Menu  -->
+    <div
+      class="absolute w-[90%] sm:h-[100px] h-20  mx-[5%] sm:mt-[10px] mt-[19px] bg-slate-100 bg-opacity-[0.7]  px-8 flex items-center rounded">
+      <!-- for mobile device -->
+      <div class="sm:ml-10 mr-auto sm:mb-9 mb-9 flex">
+
+        <img src="../assets/logo4.svg" class="sm:ml-[-30px] ml-[-20px] sm:h-20 h-14 sm:mt-9 mt-9" />
+        <div class="block sm:hidden ml-[100px] mt-[55px]">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-orange-600 border-orange-600 hover:text-white hover:border-white"
+            @click="navOnDemand">
+            <svg class="fill-current h-2 w-2" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 5h20v2H0V8zm0 5h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- for mobile device end -->
+      <ul class="hidden sm:flex list-style-none flex-col pl-0 sm:mt-6 sm:flex-row text-[18px] ">
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out  text-blue-900 font-bold hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Acceuil</a>
+        </li>
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-orange-600  font-bold hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Contacts</a>
+        </li>
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-blue-900 font-bold hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="./moncomptes.vue">Mon compte</a>
+        </li>
+        <!-- <li class="mb-4 sm:mb-0 sm:pr-2">
+          <div class="flex bg-white rounded border-white border-2 border-opacity-40  sm:h-[37px] sm:w- my-auto">
+            <input type="search" name=""
+              class=" placeholder-opacity-70 sm:ml-0 bg-[#26474E] placeholder-white outline-none focus:ring-0 w-[130px] " id=""
+              placeholder="">
+              <button class="bg-white"> 
+              <img src="../assets/search.png" alt="" class=" sm:h-[18px] sm:mr-2 sm:mt-[2px] ">
+              </button>
+          </div>
+        </li> -->
+        <!-- <li class="mb-2 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-black hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">A propos</a>
+        </li>
+        <li class="mb-2 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-black hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Nous contacter</a>
+        </li>
+        <li class="mb-2 sm:mb-0 sm:pr-2 bg-{#5e33ff}">
+          <button class="bg-[#5e33ff] hover:bg-blue-700 text-black font-bold py-2 px-4 border border-blue-700 rounded">
+            Mon compte
+          </button>
+        </li> -->
+      </ul>
+    </div>
+    <!-- Nav on demand -->
+    <div :class="navOndem ? 'block' : 'hidden'"
+      class="fixed top-0 left-0 w-[60%] h-full py-[50%] pl-20 bg-gray-900 sm:hidden">
+      <ul class="">
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Logistique</a>
+        </li>
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Services</a>
+        </li>
+        <li class="mb-4 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Nouveautées</a>
+        </li>
+        <li class="mb-2 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">A propos</a>
+        </li>
+        <li class="mb-2 sm:mb-0 sm:pr-2">
+          <a class="block transition duration-150 ease-in-out text-white hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white sm:p-2 [&.active]:text-black/90"
+            href="#!">Nous contacter</a>
+        </li>
+        <li class="mb-2 sm:mb-0 sm:pr-2 bg-{#5e33ff}">
+          <button class="bg-[#5e33ff] hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+            Mon compte
+          </button>
+        </li>
+      </ul>
+    </div>
+    <!-- Nav on demand -->
+    <!-- Carroussel -->
+    <div class="">
+      <img class="w-full sm:h-[700px] h-80" src="../assets/image4.jpg" alt="" />
+    </div>
+  </header>
+</template>

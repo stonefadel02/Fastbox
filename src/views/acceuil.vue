@@ -1,25 +1,29 @@
 <template>
- <Header></Header>
- <Read_more></Read_more>
- <About></About>
- <Features></Features>
- <Footer></Footer>
+  <shipping_option />
+  <Head></Head>
+  <!-- <About></About> -->
+  <features />
 </template>
 
 <script>
-import Features from '../components/Features'
-import About from '../components/About'
-import Read_more from '../components/read_more'
-import Footer from '../components/footer'
-import Header from '../components/header'
-// @ is an alias to /src
+import Mon_comptes from '../components/mon_comptes'
+import Head from "../components/head.vue";
+import features from "../components/features";
+import About from "../components/about";
+import shipping_option from "../components/shipping_option";
+import Footer from "../components/footer";
+import Header from "../components/header";
+// @ is an alias to /src ;
 
 export default {
   components: {
-    Features,
+    Mon_comptes,
+    Head,
+    features,
     About,
-    Read_more,
-    Footer, Header },
-  
-}
+    shipping_option,
+    Footer,
+    Header,
+  },
+};
 </script>

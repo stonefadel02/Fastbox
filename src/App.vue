@@ -1,9 +1,7 @@
 <template>
-     <router-link to="/"></router-link> 
-    <router-link to="accueil"></router-link>
-<router-view />
+  <component :is="$route.meta.layout">
+    <router-view />
+  </component>
 </template>
 
-<style>
-
-</style>
+<style></style>

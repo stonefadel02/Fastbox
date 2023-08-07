@@ -1,94 +1,39 @@
 <template>
-    <div class="container">
-        <div class="bg-white">
-            <h2 class="text-[#db0f31] text-center pt-16">WHY CHOOSE US</h2><br>
-            <h1 class="text-center font-bold text-3xl">THE MAIN FEATURES</h1><br>
-            <hr class="border-2 border-[#db0f31] w-10 mx-auto">
-            <p class="text-center mt-5">
-               Choisir Shippackage signifie opter pour un service de transport fiable, <br>sécurisé et efficace, qui met l'accent sur la satisfaction du client et la livraison réussie de vos marchandises.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2">
-                <div class="my-4">
-                    <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold mb-4 text-2xl">Clients satisfaits à 100%</h2>
-                        <p class="text-center sm:text-right">
-                            Chez Shippackage, la satisfaction de nos clients est notre priorité absolue. Nous nous engageons à offrir un service exceptionnel.
-                        </p>
-                    </div>
-                    <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Service de qualité à prix abordable</h2>
-                        <p class="text-center sm:text-right">
-                            Chez Shippackage, nous croyons fermement qu'un service de qualité ne doit pas nécessairement être coûteux. 
-                        </p>
-                    </div>
-                    <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Emplacements dans le monde entier</h2>
-                        <p class="text-center sm:text-right">
-                            Shippackage est fier de proposer des services de transport et de livraison dans des destinations du monde entier.
-                        </p>
-                    </div>
-                    <div class="my-4">
-                        <h2 class="text-center sm:text-right font-bold text-2xl mb-4">Flotte de véhicules modernes</h2>
-                        <a href="" class=""></a>
-                        <p class="text-center sm:text-right">
-                           Chez Shippackage, nous disposons d'une flotte de véhicules modernes et bien entretenus pour répondre à vos besoins en matière de transport.
-                        </p>
-                    </div>
-                </div>
-                <!-- <div class=" ml-4">
-                    <img src="./cont.png" alt="" class="h-12 w-12 mt-10" />
-                    <img src="./cad.png" alt="" class="h-12 w-12 mt-20 " />
-                    <img src="./mond.png" alt="" class="h-12 w-12 mt-20" />
-                    <svg fill="#ff3838" class="h-16 mt-16" viewBox="0 0 256 256" id="Flat"
-                        xmlns="http://www.w3.org/2000/svg" stroke="#ff3838">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
-                            stroke-width="12.288"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path
-                                d="M189.86841,115.333l27.88476-26.18262a12.004,12.004,0,0,0,1.73779-2.03906A36.00061,36.00061,0,0,0,166.43188,38.544a12.06,12.06,0,0,0-1.25146,1.46875L140.58178,66.0293,59.988,36.72266a11.99848,11.99848,0,0,0-12.58593,2.792l-24,24a12.00005,12.00005,0,0,0,1.8291,18.46972l59.82031,39.88086L74.91675,132H55.88745a12.002,12.002,0,0,0-8.48535,3.51465l-24,24a12.00039,12.00039,0,0,0,4.63965,19.85254L64.23413,191.6123l12.28906,36.24122a12,12,0,0,0,19.84961,4.63183l24-24A12.00078,12.00078,0,0,0,123.88745,200V181.31055L133.947,172.1709l40.03223,58.59863a11.99985,11.99985,0,0,0,18.39355,1.71582l24-24a11.99872,11.99872,0,0,0,2.792-12.58594Zm-4.23487,89.95019L145.988,147.251a12,12,0,0,0-17.97753-2.11231l-24.19239,21.97949A12.00061,12.00061,0,0,0,99.88745,176v19.0293l-6.835,6.835L85.05932,178.292a11.99954,11.99954,0,0,0-7.51855-7.51367L54.033,162.8252,60.85815,156h19.0293a12.002,12.002,0,0,0,8.48535-3.51465l24-24a12.00008,12.00008,0,0,0-1.8291-18.46973L50.72339,70.13477l8.24511-8.24512,80.81836,29.38769a11.996,11.996,0,0,0,12.82031-3.0332l31.71045-33.53906c.022-.02344.04444-.04688.06592-.07031A12.0004,12.0004,0,0,1,200.3728,72.48535c-.17676.17676-.34619.35645-.50928.541l-32.18994,30.22558a11.9989,11.9989,0,0,0-3.06348,12.84864L193.99829,196.919Z">
-                            </path>
-                        </g>
-                    </svg>
-                </div> -->
+  <div class="img sm:mt-[39%] mt-[700px] sm:h-[700px] h-[600px] bg-cover bg-center">
+    <div class="left-0 top-0 flex h-full w-full items-center justify-center bg-black bg-opacity-50 py-10">
+      <div class="sm:max-h-full sm:w-full sm:mt-[0px] mt-[60px] w-[305px] max-w-xl overflow-y-auto sm:rounded-2xl rounded-xl bg-white">
+        <div class="w-full">
+          <div class="m-8 my-20 max-w-[400px] mx-auto">
+            <div class="mb-8 sm:p-0 p-[44px]">
+              <h1 class="mb-4 sm:text-3xl text-[18px] font-extrabold sm:mt-0 mt-[-60px] ">
+                Pourquoi nous choisir ?
+              </h1>
+              <p class="text-gray-600 sm:text-[16px] text-[13px] ">
+                Choisir Shippackage signifie opter pour un service de transport
+                fiable,
+                <br />sécurisé et efficace, qui met l'accent sur la satisfaction
+                du client et la livraison réussie de vos marchandises.
+              </p>
             </div>
+            <div class="space-y-4 sm:mt-0 mt-[-50px]">
+              <button class="p-3 bg-black rounded-full text-white sm:w-full w-[220px] sm:ml-0 ml-10 font-semibold sm:text-[16px] text-[12px]">
+                Profitez de 20% de réduction
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </template>
 <script>
 export default {
-    
-}
+  name: "FeatureComponent",
+};
 </script>
 
 <style>
-/* .container {
-    max-width: 100%;
-    padding: 1rem;
-    margin: 0 auto;
+.img {
+  background-image: url(../assets/transport1.jpg);
 }
-
-@media (min-width: 640px) {
-    .container {
-        max-width: 640px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-} */
 </style>
